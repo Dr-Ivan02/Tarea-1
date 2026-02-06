@@ -23,39 +23,37 @@ char character = 'a';
 string message = "Hello, mi nombre es Iván";
 
 // Imprimir los valores: enteros
-Console.WriteLine("Imprimir los valores: enteros");
-Console.WriteLine($"Tipo byte: {numByte}");
-Console.WriteLine($"Tipo short: {numShort}");
-Console.WriteLine($"Tipo int: {numInt}");
-Console.WriteLine($"Tipo long: {numLong}");
+Console.WriteLine("Print values: integers");
+Console.WriteLine($"Type byte: {numByte}");
+Console.WriteLine($"Type short: {numShort}");
+Console.WriteLine($"Type int: {numInt}");
+Console.WriteLine($"Type long: {numLong}");
 
 // Imprimir los valores: decimales
-Console.WriteLine("\nImprimir los valores: decimales");
-Console.WriteLine($"Tipo float: {numFloat}");
-Console.WriteLine($"Tipo double: {numDouble}");
-Console.WriteLine($"Tipo decimal: {numDecimal}");
+Console.WriteLine("\nPrint values: decimals");
+Console.WriteLine($"Type float: {numFloat}");
+Console.WriteLine($"Type double: {numDouble}");
+Console.WriteLine($"Type decimal: {numDecimal}");
 
 // Imprimir los valores: lógicos
-Console.WriteLine("\nImprimir los valores: lógicos");
-Console.WriteLine($"Tipo bool: {boolTrue}");
-Console.WriteLine($"Tipo bool: {boolFalse}");
+Console.WriteLine("\nPrint values: booleans");
+Console.WriteLine($"Type bool: {boolTrue}");
+Console.WriteLine($"Type bool: {boolFalse}");
 
 // Imprimir los valores: caracteres
-Console.WriteLine("\nImprimir los valores: caracteres");
-Console.WriteLine($"Tipo char: {character}");
+Console.WriteLine("\nPrint values: characters");
+Console.WriteLine($"Type char: {character}");
 
 // Imprimir los valores: cadenas
-Console.WriteLine("\nImprimir los valores: cadenas");
-Console.WriteLine($"Tipo string: {message}");
-
+Console.WriteLine("\nPrint values: strings");
+Console.WriteLine($"Type string: {message}");
 
 // Declrando una constante
 const int LIGHT_SPEED = 300000; // Velocidad de la luz en km/s
-Console.WriteLine($"La velocidad de la luz es: {LIGHT_SPEED} Km/s"); // Imprimir el valor de la constante
+Console.WriteLine($"The speed of light is: {LIGHT_SPEED} Km/s"); // Imprimir el valor de la constante
 
 // Intentar cambiar el valor de la constante (esto causará un error de compilación)
 //LIGHT_SPEED = 299792; // Error: no se puede asignar un valor a una constante
-
 
 // Operaciones, incremento y decremento
 
@@ -68,11 +66,9 @@ int subtraction = number - 3; // Operación de resta
 int multiplication = number * 2; // Operación de multiplicación
 int division = number / 2; // Operación de división
 
-
 // Ooperaciones con float
 float floatValue = 10152466.25f;
 byte byteValue = (byte)(5 + floatValue);
-
 
 // Esto es una línea comentada
 
@@ -82,4 +78,4 @@ byte byteValue = (byte)(5 + floatValue);
  Y esta es mi última línea comentada
  */
 
-Console.WriteLine($"\nFecha y hora del sistema: {DateTime.Now}");
+Console.WriteLine($"\nCurrent system date and time: {DateTime.Now}");
